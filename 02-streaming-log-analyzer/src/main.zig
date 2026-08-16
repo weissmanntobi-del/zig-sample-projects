@@ -14,9 +14,7 @@ const Stats = struct {
             return;
         };
 
-        if (std.mem.eql(u8, level, "INFO")) self.info += 1
-        else if (std.mem.eql(u8, level, "WARN")) self.warn += 1
-        else if (std.mem.eql(u8, level, "ERROR")) self.errors += 1;
+        if (std.mem.eql(u8, level, "INFO")) self.info += 1 else if (std.mem.eql(u8, level, "WARN")) self.warn += 1 else if (std.mem.eql(u8, level, "ERROR")) self.errors += 1;
     }
 };
 
