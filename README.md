@@ -52,7 +52,7 @@ zig build test
 
 The Zig project template and build system conventionally expose `zig build`, `zig build run`, and `zig build test` workflows.
 
-Wanna Learn more: https://tobiweissmann.gumroad.com/l/hremr
+Explore more about Zig Programming → https://tobiweissmann.gumroad.com/l/hremr
 
 ## What “production-oriented” means here
 
