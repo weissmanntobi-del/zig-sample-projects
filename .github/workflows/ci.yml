@@ -27,7 +27,7 @@ jobs:
       - name: Check formatting
         run: |
           zig fmt --check \
-            01-production-ls-clone \
+            01-production-ls \
             02-streaming-log-analyzer \
             03-generic-ring-buffer \
             04-concurrent-worker-pool \
@@ -41,7 +41,7 @@ jobs:
       fail-fast: false
       matrix:
         project:
-          - 01-production-ls-clone
+          - 01-production-ls
           - 02-streaming-log-analyzer
           - 03-generic-ring-buffer
           - 04-concurrent-worker-pool
